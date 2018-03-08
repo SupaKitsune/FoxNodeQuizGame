@@ -13,6 +13,7 @@ public class DataController : MonoBehaviour {
 	}
 
 	public RoundData GetCurrentRoundData () {
-		return allRoundData[currentRound];
+		return allRoundData[0];
+		//return allRoundData[currentRound];
 	}
 }
